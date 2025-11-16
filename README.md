@@ -10,7 +10,7 @@ This project computes the radial and angular wavefunctions, builds the full Ïˆâ‚
 The hydrogen atom wavefunction factorizes as:
 
 $$
-\psi_{nlm}(r,\theta,\phi) = R_{nl}(r)\,Y_{lm}(\theta,\phi)
+\psi_{nlm}(r,\theta,\phi) = R_{nl}(r)\.Y_{lm}(\theta,\phi)
 $$
 
 This repository implements:
