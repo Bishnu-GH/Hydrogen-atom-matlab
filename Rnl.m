@@ -1,0 +1,9 @@
+function R = Rnl(n,l,r)
+    p = n-l-1;
+    alpha = 2*l+1;
+    rho = 2*r/n;
+    R = sqrt((2/n)^3 * factorial(p)/(2*n*factorial(n+l))) .* ...
+        exp(-rho/2) .* ...
+        rho.^l .* ...
+        LaguerreExplicit(p,alpha,rho);
+end
